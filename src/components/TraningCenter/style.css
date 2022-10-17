@@ -1,0 +1,9 @@
+
+.traning-center-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.traning-center-content img {
+  padding: 0.3rem;
+  width: calc(50% - 0.6rem);
+}

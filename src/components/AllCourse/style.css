@@ -1,0 +1,102 @@
+.AllCourse-swiper .wx-swiper {
+  height: 200px;
+}
+
+.allCourse-section {
+  border-bottom: 6px solid #f6f6f6;
+}
+
+.icon-list {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.circle-number {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.circle-number-contain {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #bbc7dd;
+}
+
+.icon-info-title-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.icon-info-title {
+  font-size: 0.6rem;
+  margin-left: 0.5rem;
+}
+
+.icon-list-content {
+  display: flex;
+  padding-bottom: 1rem;
+  justify-content: space-evenly;
+}
+
+/* .icon-info{
+ 
+} */
+
+.single-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.single-icon img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+.single-middle-icon img {
+  margin-top: 3px;
+  width: 15px;
+}
+
+.tabBar {
+  display: inline-flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.tabBar-container {
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.tabBar-text {
+  padding-bottom: 5px;
+  text-align: center;
+}
+.selected.tabBar-text {
+  color: rgb(25, 25, 255);
+}
+
+.tabBar-text:after {
+  display: block;
+  content: '';
+  padding: 0 6px 6px 6px;
+  transform: scale(0, 1.2);
+  transition: transform 200ms;
+  border-bottom: solid 1px rgb(25, 25, 255);
+}
+
+.selected.tabBar-text:after {
+  transform: scale(1, 1.2);
+  transition: transform 200ms;
+}

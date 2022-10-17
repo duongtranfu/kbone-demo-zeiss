@@ -1,0 +1,45 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/bottom2/index",
+		"pages/bottom3/index",
+		"pages/bottom4/index"
+	],
+	"window": {
+		"navigationBarTitleText": "蔡司E学苑"
+	},
+	"subpackages": [],
+	"preloadRule": {},
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"color": "#ADBAC8",
+		"selectedColor": "#0025AC",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./images/3572dfdd665cd6aaaa9086564da7a83e.png",
+				"selectedIconPath": "./images/d51745f7728d64ce079367632c564f4e.png"
+			},
+			{
+				"pagePath": "pages/bottom2/index",
+				"text": "所有课程",
+				"iconPath": "./images/653ce14cb9ee982fa2b37b96c878acc6.png",
+				"selectedIconPath": "./images/821bd47015b8e5bc321318164cfe7782.png"
+			},
+			{
+				"pagePath": "pages/bottom3/index",
+				"text": "文献&解读",
+				"iconPath": "./images/cd3a3a2a3fceb5bd3d6809dbf54c83b7.png",
+				"selectedIconPath": "./images/b754c08b86d95e4d92a8b9149538c765.png"
+			},
+			{
+				"pagePath": "pages/bottom4/index",
+				"text": "我的",
+				"iconPath": "./images/5078da080dc6d7c43ca8dba8dfae65ae.png",
+				"selectedIconPath": "./images/269a7c061ceecd944d9e107fdd1a5eb6.png"
+			}
+		]
+	}
+}
